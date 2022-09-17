@@ -1,0 +1,28 @@
+%flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flexSb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%flexEnd {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+%flexColumn {
+    display: flex;
+    flex-direction: column
+}
+
+%textOverflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
